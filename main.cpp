@@ -13,21 +13,6 @@ void PRINT(int &size, Node** &current);
 void DELETE(int &size, int ID, Node** &current);
 Node** REHASH(int &size, Node** &current, Node* node);
 
-/*
-To do list
- - add funct:
-  - print
-   - delete
-    - quit
-    ??? create the array//hash table that will store everything
-int size var represents size of has table
-
-first figure out how to have a file with list of names/create the random students
-
-then make the hash formula put it in
---if place is already taken, put it in a linked list (does linked list need to be sorted by order again? (maybe extra funct for putting in linked list)
-if linked list is full, have ANOTHER funct that makes the array doubled in size and reput everything in!
- */
 
 
 
@@ -72,7 +57,7 @@ int main() {
       
       cout << "How many students would you like to add?  ";
       cin>> inputNumOfStudents ;
-      // NOW--GENERATE RANDOM GPA AND SET ALL VALUES TO A NODE OR STUDENT AND SEND TO ADD FUNCTION OR REHASH FUNCTION OR WHATEVER 
+    
      if (numberOfStudents!=0) {// finding the right index...
 	for (int b=0; b<numberOfStudents; b++) {
 	  fin  >> firstname;
