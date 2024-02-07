@@ -72,7 +72,7 @@ int main() {
 
     
 	 //srand((unsigned) time(NULL));
-	 // credit for random names rowan miller !
+	 // credit for putting names in vector + randomixing-- rowan miller !
 	 int idx = 3 + (rand() % 3885);
 	 //cout << idx << endl;
 	 char* firstname = fn[idx];
